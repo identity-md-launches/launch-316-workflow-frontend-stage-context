@@ -1,0 +1,116 @@
+{
+  "checkedAt": "2026-09-27T06:29:54.612Z",
+  "browser": "141.0.7390.37",
+  "source": "Production dist, served below /preview/",
+  "liveTransactions": 0,
+  "results": [
+    {
+      "name": "16 role/state combinations; exact 14/30/60-day boundaries ±1 second; amount precision; 1,000 split-conservation cases",
+      "passed": true
+    },
+    {
+      "name": "Disconnected, missing-wallet recovery, static subpath resources, desktop/mobile reflow and accessibility",
+      "passed": true
+    },
+    {
+      "name": "Unknown-chain switch → add exact handoff network → switch again",
+      "passed": true
+    },
+    {
+      "name": "Keyboard approval, input validation, open, buyer release, seller withdrawal and receipt refresh",
+      "passed": true
+    },
+    {
+      "name": "Seller marks delivery, refunds, and claims at the exact 30-day boundary",
+      "passed": true
+    },
+    {
+      "name": "Buyer disputes delivery and cancels at the exact 14-day boundary",
+      "passed": true
+    },
+    {
+      "name": "Arbiter split preview, validation, resolve, mobile cards and dialog accessibility",
+      "passed": true
+    },
+    {
+      "name": "Lookup refresh updates state, and duplicate cards have distinct accessible fields",
+      "passed": true
+    },
+    {
+      "name": "Observer lookup and permissionless timeout at exact 60-day boundary",
+      "passed": true
+    },
+    {
+      "name": "Simulation revert blocks signing, wallet rejection is recoverable, on-chain revert is visible",
+      "passed": true
+    },
+    {
+      "name": "Wallet account/network changes cancel review and gate transactions",
+      "passed": true
+    },
+    {
+      "name": "RPC failure, missing code and wrong RPC chain disable transactions; retry restores reads",
+      "passed": true
+    },
+    {
+      "name": "ABI tampering fails closed before wallet actions",
+      "passed": true
+    },
+    {
+      "name": "Explicit pagination finds older wallet escrows; role filter is accurate",
+      "passed": true
+    },
+    {
+      "name": "Rendered contrast, keyboard focus, 200% text enlargement and reduced motion",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    "desktop-disconnected.jpg",
+    "mobile-320-disconnected.jpg",
+    "desktop-funded-mock.jpg",
+    "mobile-dispute-mock.jpg",
+    "mobile-review-mock.jpg",
+    "desktop-keyboard-focus.jpg"
+  ],
+  "observations": [
+    {
+      "contrast": [
+        {
+          "selector": "h1",
+          "foreground": "rgb(32, 45, 38)",
+          "background": "rgb(245, 244, 238)",
+          "ratio": 13.010600359909201
+        },
+        {
+          "selector": ".intro-copy",
+          "foreground": "rgb(86, 95, 85)",
+          "background": "rgb(245, 244, 238)",
+          "ratio": 6.023675689931896
+        },
+        {
+          "selector": ".field-hint",
+          "foreground": "rgb(86, 95, 85)",
+          "background": "rgb(252, 251, 248)",
+          "ratio": 6.414366197543344
+        },
+        {
+          "selector": ".primary",
+          "foreground": "rgb(252, 251, 248)",
+          "background": "rgb(44, 68, 57)",
+          "ratio": 10.18222261003524
+        },
+        {
+          "selector": ".balance-value",
+          "foreground": "rgb(32, 45, 38)",
+          "background": "rgb(252, 251, 248)",
+          "ratio": 13.854456888812082
+        }
+      ]
+    },
+    {
+      "textEnlargement": "200% root font size at 740px, not native browser zoom",
+      "overflow": false
+    }
+  ]
+}

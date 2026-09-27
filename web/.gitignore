@@ -1,0 +1,9 @@
+# Explicit path budget: this ignore file is restricted to web/.
+# Dependency/cache directories at every nesting level within web/.
+**/node_modules/
+**/.npm/
+**/.cache/
+**/.vite/
+**/test-results/
+**/playwright-report/
+*.tsbuildinfo

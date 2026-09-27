@@ -1,0 +1,66 @@
+{
+  "checkedAt": "2026-09-27T06:13:53.431Z",
+  "sourceCommit": "4dc6e5f9c5ade64438646f7d55f12569120721f2",
+  "endpoints": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "ok": true,
+      "chainId": 11155111,
+      "code": [
+        {
+          "name": "LaunchToken",
+          "address": "0xd10a0e1f765315d471c175a2a581965385206132",
+          "runtimeBytes": 1722
+        },
+        {
+          "name": "ArbiterEscrow",
+          "address": "0x0844fb5429a6d7b450fc8693d74105233f9650d1",
+          "runtimeBytes": 4831
+        }
+      ],
+      "boundToken": "0xD10a0e1f765315D471C175A2a581965385206132",
+      "decimals": 18,
+      "escrowCount": "0"
+    },
+    {
+      "url": "https://rpc.sepolia.ethpandaops.io",
+      "ok": true,
+      "chainId": 11155111,
+      "code": [
+        {
+          "name": "LaunchToken",
+          "address": "0xd10a0e1f765315d471c175a2a581965385206132",
+          "runtimeBytes": 1722
+        },
+        {
+          "name": "ArbiterEscrow",
+          "address": "0x0844fb5429a6d7b450fc8693d74105233f9650d1",
+          "runtimeBytes": 4831
+        }
+      ],
+      "boundToken": "0xD10a0e1f765315D471C175A2a581965385206132",
+      "decimals": 18,
+      "escrowCount": "0"
+    },
+    {
+      "url": "https://sepolia.rpc.sentio.xyz",
+      "ok": true,
+      "chainId": 11155111,
+      "code": [
+        {
+          "name": "LaunchToken",
+          "address": "0xd10a0e1f765315d471c175a2a581965385206132",
+          "runtimeBytes": 1722
+        },
+        {
+          "name": "ArbiterEscrow",
+          "address": "0x0844fb5429a6d7b450fc8693d74105233f9650d1",
+          "runtimeBytes": 4831
+        }
+      ],
+      "boundToken": "0xD10a0e1f765315D471C175A2a581965385206132",
+      "decimals": 18,
+      "escrowCount": "0"
+    }
+  ]
+}

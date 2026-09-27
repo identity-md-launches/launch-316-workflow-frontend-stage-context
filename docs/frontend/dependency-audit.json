@@ -1,0 +1,20 @@
+{
+  "tool": "npm audit",
+  "scope": "all production and development dependencies",
+  "vulnerabilities": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "dependencies": {
+    "prod": 18,
+    "dev": 119,
+    "optional": 54,
+    "peer": 0,
+    "peerOptional": 0,
+    "total": 136
+  }
+}
